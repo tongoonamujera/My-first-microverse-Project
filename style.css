@@ -136,7 +136,7 @@ html {
 }
 
 /* main three ends here */
-  
+
 /* suggestions main starts here */
 
 .suggestions-sec {
@@ -232,7 +232,7 @@ img {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  }
+}
 
 .artof {
   text-align: center;
@@ -260,7 +260,7 @@ img {
 p {
   font-size: 20px;
 }
-  
+
 .hrsection {
   display: flex;
 }
@@ -331,7 +331,7 @@ a {
 .newsletter {
   border: 1px solid black;
 }
- 
+
 iframe {
   border: 0;
 }
