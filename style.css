@@ -1,12 +1,10 @@
 
-html {
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
+  html {
+      background-color: white;
+      font-family: 'Times New Roman', Times, serif;
   }
   
-  /*
-  container for all
-  */
+  /* container for all */
   
   .container-sec {
     display: flex;
@@ -59,9 +57,7 @@ html {
     color: white;
   }
   
-  /*
-  main section
-  */
+  /* main section */
   
   .social {
     display: flex;
