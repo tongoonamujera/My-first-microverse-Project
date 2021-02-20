@@ -400,7 +400,6 @@ iframe {
 .srch {
   width: 20px !important;
   height: 10% !important;
-  display: absolute;
   top: 0;
   left: 4px;
 }
@@ -412,4 +411,3 @@ iframe {
 .haminp {
   text-decoration: none;
 }
-
