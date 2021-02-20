@@ -400,4 +400,8 @@ iframe {
 .srch {
   width: 10px !important;
   height: 5% !important;
+  display: fixed;
+  top: 0;
+  left: 40px;
+  float: none;
 }
