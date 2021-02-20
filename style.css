@@ -404,6 +404,11 @@ iframe {
   top: 0;
   left: 4px;
 }
+
 .lastlnk {
   display: flex;
+}
+
+.haminp {
+  text-decoration: none;
 }
