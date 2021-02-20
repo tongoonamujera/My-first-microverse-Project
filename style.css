@@ -396,3 +396,8 @@ iframe {
   border: 1px;
   border-radius: 10px;
 }
+
+.searchlogo {
+  width: 30px;
+  height: 10%;
+}
