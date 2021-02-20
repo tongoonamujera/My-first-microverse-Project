@@ -398,6 +398,6 @@ iframe {
 }
 
 .srch {
-  width: 15px;
-  height: 10%;
+  width: 15px !important;
+  height: 10% !important;
 }
