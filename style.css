@@ -1,3 +1,10 @@
+@media screen and (min-width: 720px) {
+    body {
+        background-color: lightgreen;
+        zoom: (current screen width)/(720);
+    }
+}
+
 html {
   background-color: white;
   font-family: 'Times New Roman', Times, serif;
@@ -229,6 +236,7 @@ img {
   height: 150px;
   width: 150px;
   margin-right: -10%;
+  float: none;
 }
 
 .mostImpo {
