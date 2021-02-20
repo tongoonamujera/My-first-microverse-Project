@@ -62,7 +62,8 @@ html {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  width: auto;
+  flex: 1;
+  width: 20%;
 }
 
 .socialIm {
@@ -172,6 +173,7 @@ html {
 .spaceAndAstronomyArt {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .Eiditor {
@@ -195,6 +197,10 @@ html {
   right: 0;
   font-style: italic;
   font-weight: bold;
+  border: 1px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .mostPopSec {
@@ -202,12 +208,16 @@ html {
   flex: 0.5;
   flex-direction: column;
   font-size: 10px !important;
+  margin-left: -15%;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   margin-right: 0%;
+  border: 1px solid rgb(223, 220, 220);
+  border-left: none;
+  border-right: none;
 }
 
 .new {
@@ -303,6 +313,7 @@ a {
 .containerNav {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid rgb(240, 236, 236);
 }
 
 .options {
@@ -312,14 +323,16 @@ a {
 
 .newsletters {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   border: 1px solid black;
   border-left: none;
   border-right: none;
   margin-right: 20%;
-  padding-bottom: 3%;
+  padding-bottom: 0%;
   flex: 1;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  width: 80%;
 }
 
 .containerForPics {
@@ -329,7 +342,10 @@ a {
 }
 
 .newsletter {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
+  justify-content: baseline;
 }
 
 iframe {
@@ -357,4 +373,27 @@ iframe {
 
 .thirdCon {
   order: 2;
+}
+
+.newp {
+  display: flex;
+  align-self: flex-end;
+}
+
+.subsrcibe {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+}
+
+.todaySec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todayp {
+  background-color: rgb(128, 16, 207);
+  border: 1px;
+  border-radius: 10px;
 }
