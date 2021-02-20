@@ -1,8 +1,7 @@
 @media screen and (min-width: 720px) {
-    body {
-        background-color: white;
-        zoom: (current screen width)/(720);
-    }
+  body {
+      background-color: white;
+  }
 }
 
 html {
